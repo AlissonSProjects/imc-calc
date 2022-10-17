@@ -23,18 +23,6 @@
     gap: 20px;
   }
   
-  
-  .rodape {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-}
-
-  .rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
-}
   .calc-container {
     width: 90%;
     display: flex;
@@ -56,6 +44,11 @@
     background-color: #fd0707;
     color: white;
   }
+  
+  footer {
+    position: absolute;
+    bottom: 12px;
+    }
 
   @media (max-width: 500px) {
     body, input, button {
