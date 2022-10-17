@@ -45,11 +45,16 @@
     color: white;
   }
   
-  footer {
+  .rodape {
     position: absolute;
     bottom: 12px;
     }
 
+  .rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+  }
   @media (max-width: 500px) {
     body, input, button {
       font-size: 15px;
